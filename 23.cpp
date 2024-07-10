@@ -27,7 +27,6 @@ int main() {
     std::cout << cnt;
     return 0;
 }
-
 void search(int node) {
     visit[node] = true;
     for (int i : edge[node]) {
